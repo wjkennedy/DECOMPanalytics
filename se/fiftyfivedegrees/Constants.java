@@ -1,0 +1,20 @@
+// 
+// Decompiled by Procyon v0.6.0
+// 
+
+package se.fiftyfivedegrees;
+
+public class Constants
+{
+    public static String STORAGE_KEY_DATA_LOADER_NUMBER_OF_THREADS;
+    public static String STORAGE_KEY_DATA_LOADER_REQUEST_DELAY;
+    public static String STORAGE_KEY_DATA_LOADER_FETCH_CUSTOM_FIELDS;
+    public static String STORAGE_KEY_DATA_LOADER_NUMBER_OF_ISSUES;
+    
+    static {
+        Constants.STORAGE_KEY_DATA_LOADER_NUMBER_OF_THREADS = "DATA_LOADER_NUMBER_OF_THREADS";
+        Constants.STORAGE_KEY_DATA_LOADER_REQUEST_DELAY = "STORAGE_KEY_DATA_LOADER_REQUEST_DELAY";
+        Constants.STORAGE_KEY_DATA_LOADER_FETCH_CUSTOM_FIELDS = "DATA_LOADER_FETCH_CUSTOM_FIELDS";
+        Constants.STORAGE_KEY_DATA_LOADER_NUMBER_OF_ISSUES = "DATA_LOADER_NUMBER_OF_ISSUES";
+    }
+}
